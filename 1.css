@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(238, 221, 238);
+}
+.header {
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem;
+    height: 8rem;
+    width: 50rem;
+    margin: 5rem auto; /* Adjust the 'auto' value to center horizontally */
+    color: rgb(118, 99, 135);
+    background-color: rgb(198, 177, 198);
+    display: flex;
+    border: 0.1rem  rgb(118, 99, 135) solid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 2%;
+}
+
+.start{
+    height: 10rem;
+    width: 20rem;
+    border-radius: 2%;
+    background-color: rgb(198, 177, 198);
+    border: 0.1rem  rgb(118, 99, 135) solid;
+    color: rgb(118, 99, 135);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.answer-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    gap: 10px; /* Adjust as needed for spacing between buttons */
+    max-width: 100rem;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+    align-items: center;
+    border: 5px black solid;
+}
+
+.answer-buttons button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(118, 99, 135);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(198, 177, 198);
+    border: 0.1rem rgb(118, 99, 135) solid;
+    width: 40rem;
+    height: 5rem;
+}
+
+
+.answer-buttons button.correct {
+    background-color: green;
+    color: white;
+}
+
+.answer-buttons button.incorrect {
+    background-color: red;
+    color: white;
+}
+
+.questions{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  rgb(118, 99, 135);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.answersContainer{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 210px;
+}
